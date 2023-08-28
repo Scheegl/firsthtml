@@ -1,0 +1,85 @@
+.navigation {
+    height: 100px;
+    width: 100%;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02d9ca;
+}
+
+.navigation li {
+    float: left;
+    display: inline;
+}
+
+
+.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 42px 42px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #ddedec;
+}
+
+.active {
+    background-color: #6c7070;
+  }
+
+.header {
+    float: left;
+    font-size: 20px;
+    align-content : center;
+    padding-right: 900px;
+    padding-left: 100px;
+    color: white;
+  }
+
+
+.img {
+    padding-top: 25pt;
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    column-count: 2;
+    column-gap: 40px;
+    padding-right: 40px;
+
+}
+
+.content h1 {
+    font-family: Trebuchet MS, sans-serif;
+    text-align: left;
+    padding-top: 10pt;
+    padding-left: 15pt;
+}
+
+.content h4 {
+    font-family: Trebuchet MS;
+    text-align: left;
+    padding-top: 10pt;
+    padding-left: 10pt;
+    padding-right: 100pt;
+    line-height: 2;
+}
+
+.content hr {
+    padding-right: 2pt;
+}
+
+.footer{
+    font-family: Trebuchet MS;
+    text-align: left;
+    line-height: 2.2;
+    margin: 0;
+    padding-left: 10pt;
+    background-color: #02d9ca;
+}
